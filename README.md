@@ -19,45 +19,44 @@ If you're here, you probably saw our open-access research paper: "[**Deep-Learni
   - A _description_ of the function;
   - Any applicable _literature_;
   - Summary of _input/output_ variables;
-  - A _list_ of additional ```.m```files.
-
-<details>
-  <summary> It looks roughly like this (_click to expand_):</summary>
+  - A _list_ of additional ```.m```files. 
   
-```Matlab
+It looks roughly like this: 
+```Matlab 
+function [out_A] = fnFunctionName(in_A, in_B)
+```
+<details>
+<summary> <em>Expand here for details</em> </summary>
+
+  ```Matlab
   function [out_A] = fnFunctionName(in_A, in_B)
     %FNFUNCTIONNAME is an example to describe the code syntax used. This is the function description.
-    % Any relavant literature is listed as:
-    %     [1]: Author 1, Author 2. Title. Journal. Year. DOI.
-    %     [2]: Author 1, Author 2. Title. Journal. Year. DOI. 
-    %------------------------------------------------------------
-    %   INPUTS:
-    %------------------------------------------------------------
-    %     1) in_A: This is variable of size MxN.
-    %     2) in_B: This is another variable.
-    %------------------------------------------------------------
-    %   OUTPUTS:
-    %------------------------------------------------------------
-    %     1) out_A: This is variable.
-    %------------------------------------------------------------
-    %   NECESSARY FUNCTIONS:
-    %------------------------------------------------------------
-    %     1) fnAnotherFunction.m
-    %------------------------------------------------------------
-    % Written by: Author (email)
-    % Updated: YYYY-MM-DD.
-    %------------------------------------------------------------
-    % According to [1]:
-    out_A = in_A + in_B; 
+      % Any relavant literature is listed as:
+      %     [1]: Author 1, Author 2. Title. Journal. Year. DOI.
+      %     [2]: Author 1, Author 2. Title. Journal. Year. DOI. 
+      %------------------------------------------------------------
+      %   INPUTS:
+      %------------------------------------------------------------
+      %     1) in_A: This is variable of size MxN.
+      %     2) in_B: This is another variable.
+      %------------------------------------------------------------
+      %   OUTPUTS:
+      %------------------------------------------------------------
+      %     1) out_A: This is variable.
+      %------------------------------------------------------------
+      %   NECESSARY FUNCTIONS:
+      %------------------------------------------------------------
+      %     1) fnAnotherFunction.m
+      %------------------------------------------------------------
+      % Written by: Author (email)
+      % Updated: YYYY-MM-DD.
+      %------------------------------------------------------------
+      % According to [1]:
+      out_A = in_A + in_B; 
   end
-```
+  ```
 </details>
 
-
-<details>
-<summary>
-  <pre><code lang="matlab">
-  function [out_A] = fnFunctionName(in_A, in_B)
-  </code></pre> </summary>
-</details>
-
+# Data
+## Database
+## Training and Validation Datasets
