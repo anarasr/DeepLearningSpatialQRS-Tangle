@@ -1,49 +1,55 @@
-# This CITATION.cff file was generated with cffinit.
-# Visit https://bit.ly/cffinit to generate yours today!
-
 cff-version: 1.2.0
-title: >-
-  Deep-Learning-Based Estimation of Spatial QRS-T
-  angle
-message: >-
-  Please cite this software using the metadata from
-  'preferred-citation'.
+title: Deep-Learning-Based Estimation of Spatial QRS-T angle
+message: "Please cite this software using the metadata from 'preferred-citation'."
 type: software
 authors:
   - given-names: Ana
     family-names: Santos Rodrigues
     email: ana.rodrigues@ktu.lt
-    affiliation: >-
-      Biomedical Engineering Institute, Kaunas
-      University of Technology
+    affiliation: Biomedical Engineering Institute, Kaunas University of Technology
     orcid: 'https://orcid.org/0000-0002-5011-8192'
   - given-names: Rytis
     family-names: Augustauskas
     email: rytis.augustauskas@ktu.lt
-    affiliation: >-
-      Department of Automation, Kaunas University of
-      Technology
+    affiliation: Department of Automation, Kaunas University of Technology
     orcid: 'https://orcid.org/0000-0001-8672-3872'
   - given-names: Mantas
     family-names: Lukoševičius
     email: mantas.lukosevicius@ktu.lt
-    affiliation: >-
-      Faculty of Informatics, Kaunas University of
-      Technology
+    affiliation: Faculty of Informatics, Kaunas University of Technology
     orcid: 'https://orcid.org/0000-0001-7963-285X'
   - given-names: Pablo
     family-names: Laguna
     email: laguna@unizar.es
-    affiliation: >-
-      Biomedical Signal Interpretation and
-      Computational Simulation (BSICoS) Group, Aragón
-      Institute of Engineering Research (I3A), IIS
-      Aragón, University of Zaragoza
+    affiliation: Biomedical Signal Interpretation and Computational Simulation (BSICoS) Group, 
+    Aragón Institute of Engineering Research (I3A), IIS 
+    Aragón, University of Zaragoza
     orcid: 'https://orcid.org/0000-0003-3434-9254'
   - given-names: Vaidotas
     family-names: Marozas
     email: vaidotas.marozas@ktu.lt
-    affiliation: >-
-      Biomedical Engineering Institute, Kaunas
-      University of Technology
+    affiliation: Biomedical Engineering Institute, Kaunas University of Technology
     orcid: 'https://orcid.org/0000-0002-6879-5845'
+version: all
+date-released: 2022-07-20
+license: GPL-3.0-or-later
+repository-code: https://github.com/anarasr/DeepLearningSpatialQRS-Tangle
+preferred-citation:
+ type: article
+ doi: 10.3390/s22145414
+ title: Deep-Learning-Based Estimation of the Spatial QRS-T Angle from Reduced-Lead ECGs
+ authors:
+   - family-names: Santos Rodrigues
+     given-names: Ana
+   - family-names: Augustauskas
+     given-names: Rytis
+   - family-names: Lukoševičius
+     given-names: Mantas
+   - family-names: Laguna
+     given-names: Pablo
+   - family-names: Marozas
+     given-names: Vaidotas
+ journal: Sensors
+ year: 2022
+ volume: 14
+ pages: 5414
